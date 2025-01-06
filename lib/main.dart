@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
             ],
             builder: (e, isHovered) {
               return AnimatedScale(
-                scale: isHovered ? 1.2 : 1.0,
+                scale: isHovered ? 1.5 : 1.0,
                 duration: const Duration(milliseconds: 300),
                 curve: Curves.elasticOut,
                 child: Container(
